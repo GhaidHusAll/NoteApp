@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.*
 
 
-@Database(entities = [Note::class],version = 1,exportSchema = false)
+@Database(entities = [Note::class],version = 3,exportSchema = false)
 abstract class NoteDatabase: RoomDatabase() {
     abstract fun dao(): NoteDao
 

@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         noteList = arrayListOf()
         setAdapter(noteList)
 
-        vm.getNotes(noteDao).observe(this,{
+        vm.getNotesFirebase().observe(this,{
            notes -> myAdapter.update(notes)
         })
         binding.apply {
@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         if (isEdit){
             toDetails.putExtra("note",note?.note)
             toDetails.putExtra("pk",note?.pk)
+            toDetails.putExtra("id",note?.id)
             toDetails.putExtra("isEdit",true)
         }
         startActivity(toDetails)

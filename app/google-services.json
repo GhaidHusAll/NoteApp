@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "696421127911",
+    "project_id": "noteapp-ghh",
+    "storage_bucket": "noteapp-ghh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696421127911:android:f26c09f0a3ba10d24f7442",
+        "android_client_info": {
+          "package_name": "com.example.noteapp_ghh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696421127911-aqs3ern8dvegv9i1nun9mf5893c6mkv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKV_JACU-Wg2qsT03lVu2AnHwI3b9jszQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696421127911-aqs3ern8dvegv9i1nun9mf5893c6mkv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
