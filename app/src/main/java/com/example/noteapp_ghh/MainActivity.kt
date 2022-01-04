@@ -32,11 +32,7 @@ class MainActivity : AppCompatActivity() {
         vm.getNotesFirebase().observe(this,{
            notes -> myAdapter.update(notes)
         })
-        binding.apply {
-            btnToDetails.setOnClickListener {
-                toDetails(false,null)
-            }
-        }
+
     }
     private fun setAdapter(list: ArrayList<Note>){
         myAdapter = NoteAdapter(list,this)

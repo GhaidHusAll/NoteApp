@@ -118,9 +118,9 @@ class NoteViewModel: ViewModel() {
             .addOnSuccessListener { _ ->
                 Log.d(
                     "TAG VM",
-                    "-----------------------DocumentSnapshot edit with ID: ${note.id} "
+                    "-----------------------DocumentSnapshot de with ID: ${note.id} "
                 ) }
-            .addOnFailureListener {  e -> Log.w("TAG VM", "-------------------Error edit document", e) }
+            .addOnFailureListener {  e -> Log.w("TAG VM", "-------------------Error de document", e) }
     }
 
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_nav"
+    app:startDestination="@id/detalisFragment">
+
+    <fragment
+        android:id="@+id/detalisFragment"
+        android:name="com.example.noteapp_ghh.DetalisFragment"
+        android:label="fragment_detalis"
+        tools:layout="@layout/fragment_detalis" >
+        <action
+            android:id="@+id/action_detalisFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.noteapp_ghh.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

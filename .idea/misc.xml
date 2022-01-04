@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/androidCODES/NoteApp_Ghh/app/src/main/res/layout/activity_details.xml" value="0.14356884057971014" />
         <entry key="..\:/androidCODES/NoteApp_Ghh/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/androidCODES/NoteApp_Ghh/app/src/main/res/layout/fragment_add.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidCODES/NoteApp_Ghh/app/src/main/res/layout/fragment_detalis.xml" value="0.17239583333333333" />
+        <entry key="..\:/androidCODES/NoteApp_Ghh/app/src/main/res/layout/fragment_main.xml" value="0.20416666666666666" />
         <entry key="..\:/androidCODES/NoteApp_Ghh/app/src/main/res/layout/row.xml" value="0.33" />
       </map>
     </option>

@@ -26,16 +26,20 @@
         app:layout_constraintStart_toStartOf="parent">
 
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btnToDetails"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#90DC6EE4"
-            android:clickable="true"
-            app:srcCompat="@android:drawable/ic_menu_add"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/nav"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="675dp" />
     </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
